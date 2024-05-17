@@ -16,5 +16,5 @@ class find_area{
 };
 int main()
 {
-    
+    find_area obj;
 }
