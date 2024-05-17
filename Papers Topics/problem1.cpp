@@ -17,9 +17,10 @@ class person{
     }
     void output()
     {
-        cout<<"Name : "<<name<<endl;
-        cout<<"Age : "<<age<<endl;
-        cout<<"Address : "<<address<<endl;
+        cout<<"\t Name : "<<name<<ends;
+        cout<<"\t Age : "<<age<<ends;
+        cout<<"\t Address : "<<address<<ends;
+        cout<<endl;
     }
 
 };
