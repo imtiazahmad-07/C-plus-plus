@@ -16,5 +16,4 @@ class check{
 int main()
 {
     check obj1,obj2; //creating objects to check the destructor which works in the reverse order
-
 }
