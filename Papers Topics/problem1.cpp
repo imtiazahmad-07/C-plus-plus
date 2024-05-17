@@ -25,12 +25,12 @@ class person{
 };
 int main()
 {
-    person imtiaz,waseem,haroon;
-    imtiaz.input();
-    imtiaz.output();
-    waseem.input();
-    waseem.output();
-    haroon.input();
-    haroon.output();
+    person person1,person2,person3;
+    person1.input();
+    person1.output();
+    person2.input();
+    person2.output();
+    person3.input();
+    person3.output();
 
 }
