@@ -22,5 +22,12 @@ int add_numbers(calculator obj, int a, int b)   //defining the friend function a
 }
 int main()
 {
+     calculator obj;     //declaring an object using user-defind data type "Calculator"
+    int a,b;        //declaring two numbers
+    cout<<"Enter first number : ";  //giving output
+    cin>>a; //taking input first number
+    cout<<"Enter second number : ";
+    cin>>b; //taking input of second number             
     
+    cout<<"Sum is : "<<add_numbers(obj,a,b); //passing the values into the friend function 
 }
