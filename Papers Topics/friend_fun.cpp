@@ -24,10 +24,10 @@ int main()
 {
      calculator obj;     //declaring an object using user-defind data type "Calculator"
     int a,b;        //declaring two numbers
-    cout<<"Enter first number : ";  //giving output
+    cout<<"Enter first number : ";  //giving output ex:  4
     cin>>a; //taking input first number
     cout<<"Enter second number : ";
-    cin>>b; //taking input of second number             
+    cin>>b; //taking input of second number  ex: 6
     
-    cout<<"Sum is : "<<add_numbers(obj,a,b); //passing the values into the friend function 
+    cout<<"Sum is : "<<add_numbers(obj,a,b); //a+b= 10;   passing the values into the friend function 
 }
