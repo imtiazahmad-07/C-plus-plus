@@ -11,6 +11,7 @@ private:                        //access specifier for data members
     {
         return first + second;      //adding to numbers and returning these to the member function
     }
+     friend int add_numbers(calculator, int a, int b);  
 };
 int main()
 {
